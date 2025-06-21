@@ -10,13 +10,7 @@ const App = () => {
   return (
 
     <div>
-      <div > 
         <Nav />
-      </div>
-     <div class="nnn">
-       <Navbar/>
-     </div>
-
       <Routes>
         <Route path='login' element={<Login/>} />
         <Route path='signup' element={<Signup/>} />
